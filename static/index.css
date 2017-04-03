@@ -9,8 +9,8 @@ input, textarea { outline: none; }
 fieldset { border: none; }
 
 @font-face {
-    font-family: "Open Sans Bold";
-    src: url(../static/fonts/OpenSans-Bold.ttf);
+	font-family: "Open Sans Bold";
+	src: url(../static/fonts/OpenSans-Bold.ttf);
 }
 
 body {
