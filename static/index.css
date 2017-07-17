@@ -90,8 +90,8 @@ body {
 	color: #515a60;
 }
 
-#profile #twitter { margin-left: 135px; }
-#profile #youtube, #profile #github, #profile #instagram { margin-left: 14px; }
+#profile #twitter { margin-left: 101px; }
+#profile #youtube, #linkedin, #profile #github, #profile #instagram { margin-left: 10px; }
 #profile div {
 	margin-top: 5px;
 }
