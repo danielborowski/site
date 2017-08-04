@@ -157,6 +157,12 @@ body {
 	margin-bottom: 15px;
 }
 
+#projects li,
+#projects span {
+	margin-left: 3px;
+    display: block;
+}
+
 #projects li {
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
