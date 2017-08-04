@@ -160,8 +160,8 @@ body {
 #projects li {
 	font-family: 'Droid Serif', serif;
 	font-size: 16px;
-	margin-top: 19px;
-	margin-bottom: 5px;
+    margin-top: 19px;
+    margin-bottom: 6px;
 }
 
 #projects li span.date {
@@ -185,13 +185,26 @@ body {
 	line-height: 21px;
 }
 
+#projects aside {
+    margin: 3px 0;
+    border-left: 4px dotted #a2c3d8;
+    margin-left: 9px;
+}
+#projects aside a {
+    color: #a2c3d8;
+    padding-left: 10px;
+}
+
 a:hover { 
 	text-decoration: underline;
 }
 
-li.borderLeft {
-	border-left: 5px solid #236fb6;
+.borderLeft {
+    border-left: 4px solid #236fb6;
     padding-left: 10px;
+    background: #eaf1f7;
+    padding: 4px 10px;
+    border-radius: 3px;
 }
 
 #actualPost {
