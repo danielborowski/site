@@ -32,7 +32,8 @@ body {
 
 #profile .name a {
 	background: #bedaef;
-	padding: 0 1px;
+	padding: 0 3px;
+	border-radius: 3px;
 }
 
 #profile .subtitle {
@@ -79,6 +80,12 @@ body {
 	margin-left: 12px;
 	font-size: 16px;
 	margin-bottom: 6px;
+}
+
+#projects .item .date {
+	font-size: 14px;
+	font-style: italic;
+	margin-left: 2px;
 }
 
 #projects a {
