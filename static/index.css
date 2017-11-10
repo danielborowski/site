@@ -75,6 +75,15 @@ body {
 	margin-bottom: 13px;
 }
 
+.borderLeft .slashes {
+	padding-right: 6px;
+}
+
+.borderLeft .sl_proj { color: #3eca3e; }
+.borderLeft .sl_artic { color: #f19f61; }
+.borderLeft .sl_older { color: #ec5e5e; }
+.borderLeft .sl_papers { color: #84a1e6; }
+
 #projects .item {
 	list-style-type: circle;
 	margin-left: 12px;
