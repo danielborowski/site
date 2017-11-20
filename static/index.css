@@ -46,13 +46,16 @@ body {
 }
 
 #profile .socialmedia {
-	margin-top: 12px;
+	margin-top: 17px;
 	font-size: 17px;
 	margin-left: 10px;
+	overflow: auto;
+	padding-bottom: 10px;
 }
 
 #profile .socialmedia li {
-	margin-bottom: 4px;
+	margin-right: 19px;
+	float: left;
 }
 
 #profile .socialmedia li a:hover {
@@ -61,11 +64,7 @@ body {
 }
 
 #profile .socialmedia li i {
-	margin-right: 10px;
-}
-
-#projects {
-	margin-top: 10px;
+	margin-right: 7px;
 }
 
 #projects .borderLeft {
