@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<!-- js -->
+	<script type="text/javascript" src="cordova.js"></script>
+	<title>Reverse</title>
+</head>
+<body>
+	<div id='options'>Level 9</div>
+	<div id='solvedText'>Your solution: <span id='userSteps'></span> steps | Fastest possible: <span class='fastest'></span> steps</div>
+	<!-- BOARD DISPLAY -->  
+	<div id='container' class='rows5'>
+		<table id='chessboard'></table>
+	</div>
+	<ul id='buttons'>
+		<li class='browsebutton'>Browse</li>
+		<li class='resetbutton'>Reset</li>
+		<li class='curSteps'>0</li>
+	</ul>
+<!-- BOARD INPUT -->
+<textarea id='chessboardInput'>
+0000
+x0R0
+00x0
+000x
+x0B0
+</textarea>
+	<div id='rowWidth'></div>
+	<div id='win' class='win_level9'>Nice job!<p>Solved in <span></span> steps</p> 
+		<div class='playagain'></div> <div class='nextlevel'></div> 
+	</div>
+	<div id='browselevels'></div>
+</body>
+<!-- load js after level is displayed -->
+<script type="text/javascript" src="js/zepto.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/board.js"></script>
+<script type="text/javascript" src="js/zepto.touch.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/phone_events.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>
