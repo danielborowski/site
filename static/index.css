@@ -20,7 +20,7 @@ body {
 }
 
 #site {
-	width: 800px;
+	width: 300px;
 	margin: 0 auto;
 	margin-top: 20px;
 }
@@ -48,7 +48,6 @@ body {
 #profile .socialmedia {
 	margin-top: 17px;
 	font-size: 17px;
-	margin-left: 10px;
 	overflow: auto;
 	padding-bottom: 10px;
 	padding-left: 1px;
@@ -56,7 +55,7 @@ body {
 
 #profile .socialmedia li {
 	margin-right: 19px;
-	float: left;
+	margin-bottom: 7px;
 }
 
 #profile .socialmedia li a:hover {
