@@ -32,7 +32,7 @@ body {
 
 #profile .name a {
 	background: #bedaef;
-	padding: 0 3px;
+	padding: 0px 76px;
 	border-radius: 3px;
 }
 
@@ -68,10 +68,10 @@ h3 {
 }
 
 #profile .socialmedia {
-	margin-top: 17px;
+	margin-top: 20px;
 	font-size: 28px;
 	overflow: auto;
-	padding-bottom: 21px;
+	padding-bottom: 19px;
 }
 
 #profile .socialmedia li {
