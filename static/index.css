@@ -20,7 +20,7 @@ body {
 }
 
 #site {
-	width: 300px;
+	width: 400px;
 	margin: 0 auto;
 	margin-top: 20px;
 }
@@ -45,26 +45,48 @@ body {
 	text-decoration: underline;
 }
 
+h3 {
+	font-family: "Open Sans Bold";
+	margin-bottom: 9px;
+}
+
+#profile .articles {
+	overflow: auto;
+	width: 600px;
+	margin-bottom: 15px;
+}
+
+#profile .articles a {
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+#profile .articles a:hover {
+	text-decoration: underline;
+}
+
 #profile .socialmedia {
 	margin-top: 17px;
-	font-size: 17px;
+	font-size: 28px;
 	overflow: auto;
 	padding-bottom: 10px;
-	padding-left: 1px;
 }
 
 #profile .socialmedia li {
-	margin-right: 19px;
+	margin-right: 8px;
 	margin-bottom: 7px;
+	float: left;
 }
 
 #profile .socialmedia li a:hover {
 	background: #d7edfd;
-	box-shadow: 2px 2px 0px #464646;
+	box-shadow: 1px 1px 0px #464646;
 }
 
 #profile .socialmedia li i {
-	margin-right: 7px;
+	margin: 5px;
 }
 
 #projects .borderLeft {
